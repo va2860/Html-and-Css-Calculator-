@@ -1,0 +1,77 @@
+.container{
+    border:2px solid black;
+    margin-left: 400px;
+    margin-right: 445px;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: auto auto auto auto;
+    
+    
+
+}
+.box{
+    border:2px solid;
+    background-color: yellow;
+    padding: 20px;
+    font-weight: bold;
+}
+.box:hover{
+    text-decoration: underline;
+    
+}
+#box-1{
+   grid-row: span 2;
+   grid-column: span 4;
+   padding:40px;
+   background-color: black;
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+   
+}
+   
+#box-2{
+    grid-column:span 2;
+    background-color: orange;
+    text-align: center;
+    
+}
+#box-3{
+    background-color: orange;
+}
+#box-4{
+    background-color: orange;
+}
+#box-5{
+    background-color: antiquewhite;
+    
+
+}
+#box-6{
+   background-color: antiquewhite;
+}
+#box-7{
+    background-color: antiquewhite;
+}
+#box-9{
+    background-color: antiquewhite;
+}
+#box-10{
+    background-color: antiquewhite;
+}
+#box-11{
+    background-color: antiquewhite;
+}
+#box-13{
+    background-color: antiquewhite;
+}
+#box-17{
+    background-color:orange;
+    grid-column: span 3;
+  
+}
+#box-14{
+    background-color: antiquewhite;
+}
+#box-15{
+    background-color: antiquewhite;
+}
